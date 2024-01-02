@@ -18,6 +18,15 @@
 }
 .in .text { font-weight: bold;}
 
+@font-face {
+	font-family: 'Orbit';
+	src : url('font/Orbit-Regular.ttf') format('truetype');
+}
+
+mymirits {
+	background-color: #bbb3 !important;
+}
+
 /*
 /*	Copyright (c) 2023 Marketify
 /*	Author: Marketify
@@ -74,6 +83,11 @@ body{
 	background-color: #fff;
 	color: var(--main-color);
 	overflow-x: hidden;
+}
+
+/* 윤주가 추가 */
+.hangle {
+	font-family: 'Orbit', sans-serif !important;
 }
 
 svg{
@@ -1056,6 +1070,7 @@ h6 { font-size: 16px; }
 	     -o-transition: all .5s ease;
 	        transition: all .5s ease;
 }
+
 .jara_tm_services .list > ul > li.waypoint_effect.load .list_inner:before{
 	height: 100%;
 }
@@ -1463,7 +1478,9 @@ h6 { font-size: 16px; }
 	max-height: 600px;
 }
 .jara_tm_testimonials .right{
-	width: 65%;
+	/* width: 65%; */
+	/* 윤주가 수정 */
+	width: 70%;
 	padding-left: 95px;
 }
 .jara_tm_testimonials .text{
